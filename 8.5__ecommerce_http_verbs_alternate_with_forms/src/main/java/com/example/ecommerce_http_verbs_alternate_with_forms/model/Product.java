@@ -1,0 +1,23 @@
+package com.example.ecommerce_http_verbs_alternate_with_forms.model;
+
+public class Product {
+
+    private String name;
+    private double price;
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
