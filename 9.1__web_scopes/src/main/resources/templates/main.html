@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<h1>welcome, <span th:text="${username}"></span></h1>
+<h2>Session Bean: <span th:text="${id}"></span></h2>
+<h2>Login number: <span th:text="${counter}"></span></h2>
+<a href="/main?logout">Log Out</a>
+</body>
+</html>
