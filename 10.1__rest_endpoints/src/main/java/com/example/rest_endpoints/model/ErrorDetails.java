@@ -4,7 +4,7 @@ public class ErrorDetails {
     private String message;
 
     public String getMessage() {
-        return message;
+        return this.message;
     }
 
     public void setMessage(String message) {
